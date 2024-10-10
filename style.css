@@ -1,29 +1,3 @@
-:root {
-  --merriweather-light {
-    font-family: "Merriweather", serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-
-  --merriweather-regular {
-    font-family: "Merriweather", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-  --merriweather-bold {
-    font-family: "Merriweather", serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-
-  --merriweather-black {
-    font-family: "Merriweather", serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -47,9 +21,8 @@ body {
 .main-heading {
   font-size: 2rem;
   text-transform: uppercase;
-  font-family: var(--merriweather-bold);
+  font-family: "Merriweather", serif;
   font-weight: 900;
-  letter-spacing: -2px;
   margin: 0 0 0 5rem;
 }
 
@@ -63,10 +36,9 @@ body {
 .link {
   font-size: 1.5rem;
   text-transform: capitalize;
-  font-family: var(--merriweather-regular);
+  font-family: "Merriweather", serif;
   font-weight: 600;
   color: #979797;
-  letter-spacing: -1px;
 }
 
 .link:first-child {
@@ -92,5 +64,53 @@ div .link {
 
 .main-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 2fr 1fr;
+  margin-left: 5rem;
+}
+
+.sub-heading {
+  font-size: 4.6rem;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -4px;
+  margin: 7rem 0 2rem 0;
+  width: 50%;
+}
+
+.explainer {
+  font-size: 1.475rem;
+  color: #979797;
+  font-family: "Merriweather", serif;
+  font-weight: 500;
+  width: 56%;
+  letter-spacing: 0.4px;
+  line-height: 2rem;
+}
+
+.get-started-button {
+  background-color: #000;
+  color: #fff;
+  height: 2.7rem;
+  width: 9rem;
+  border-radius: 0.7rem;
+  border: none;
+  text-transform: capitalize;
+  font-family: "Merriweather", serif;
+  letter-spacing: 1px;
+  font-weight: 900;
+  font-size: 1rem;
+}
+
+.video-button {
+  color: #000;
+  border: none;
+  background: none;
+  font-family: "Merriweather", serif;
+  height: 2.7rem;
+  width: 9rem;
+  margin-left: 2rem;
+  text-transform: capitalize;
+  font-weight: 900;
+  font-size: 1rem;
 }
