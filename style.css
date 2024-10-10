@@ -1,0 +1,96 @@
+:root {
+  --merriweather-light {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  --merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  --merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  --merriweather-black {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: linear-gradient(
+    to right,
+    #fff 0%,
+    #fff 70%,
+    #1f1f1f 70%,
+    #1f1f1f 100%
+  );
+}
+
+.nav-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  margin: 2rem 0 0 0;
+}
+
+.main-heading {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: var(--merriweather-bold);
+  font-weight: 900;
+  letter-spacing: -2px;
+  margin: 0 0 0 5rem;
+}
+
+.routes {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+
+.link {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  font-family: var(--merriweather-regular);
+  font-weight: 600;
+  color: #979797;
+  letter-spacing: -1px;
+}
+
+.link:first-child {
+  color: #1f1f1f;
+}
+
+div .link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0 5rem 0 0;
+}
+
+.subscribe-button {
+  background-color: #000;
+  color: #fff;
+  height: 3rem;
+  width: 7.5rem;
+  border-radius: 1rem;
+  border: none;
+  text-transform: capitalize;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
