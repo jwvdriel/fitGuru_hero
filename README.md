@@ -1,5 +1,5 @@
-# tipCalcu
+# fitPage
 
-simple tip calculator
+simple page landing page challenge webdev daily
 
-depending how good you found the restaurant
+
