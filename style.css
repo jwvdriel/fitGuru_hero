@@ -1,3 +1,8 @@
+html {
+  overflow-y: none;
+  overflow-x: none;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -9,6 +14,9 @@ body {
     #1f1f1f 70%,
     #1f1f1f 100%
   );
+  min-height: 100vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .nav-container {
@@ -73,6 +81,7 @@ div .link {
   display: grid;
   grid-template-columns: 2fr 1fr;
   margin-left: 5rem;
+  justify-items: end;
 }
 
 .sub-heading {
@@ -81,7 +90,7 @@ div .link {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: -4px;
-  margin: 7rem 0 2rem 0;
+  margin: 12rem 0 2rem 0;
   width: 50%;
 }
 
@@ -136,4 +145,16 @@ div .link {
 
 .socials i {
   font-size: 2.5rem;
+}
+
+.image-section {
+  position: absolute;
+  top: 8rem;
+  right: -9rem;
+}
+
+.image-section img {
+  width: 100%;
+  height: 90vh;
+  object-fit: contain;
 }
